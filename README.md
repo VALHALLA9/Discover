@@ -29,7 +29,7 @@ Example:
 ## 3. Run Experiments via JSON Config (Batch)
 
 ### 3.1 Prepare a JSON config
-Create a file such as `cardio.json`:
+Create a file such as `exp.json`:
 
 ```json
 {
@@ -37,7 +37,8 @@ Create a file such as `cardio.json`:
   "_comment_experiment": "Exp",
   "global": {
     "dataset": [
-      "cardio"
+      "cardio",
+      "hotel_booking"
     ],
     "model": [
       "RandomForest",
@@ -112,7 +113,7 @@ Create a file such as `cardio.json`:
 
 ### 3.2 Run the experiment
 ```bash
-python server_experiment_config_multi.py --config cardio.json
+python server_experiment_config_multi.py --config exp.json
 ```
 
 ### 3.3 Results
