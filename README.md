@@ -113,7 +113,7 @@ Create a file such as `exp.json`:
 
 ### 3.2 Run the experiment
 ```bash
-python server_experiment_config_multi.py --config exp.json
+python run_dce_experiments.py --config exp.json
 ```
 
 ### 3.3 Results
