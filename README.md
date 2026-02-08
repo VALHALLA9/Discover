@@ -120,6 +120,7 @@ python server_experiment_config_multi.py --config exp.json
 
 Typical outputs:
 - `x_true.csv`, `best_x.csv`, `final_x.csv`
-- `best_y.csv`, `final_y.csv`
+- `best_y.csv`, `final_y.csv`, `y_target.csv`
 - `optimization_log.csv`
 - `metadata.json`
+- `...`
